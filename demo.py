@@ -1,7 +1,11 @@
-def my_function():
-    a=5
-    b=7
+print("Hello, World!")
 
-    return d
+name = input("Enter your name: ")
+print("Welcome,", name)
 
- my_function()
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+sum = num1 + num2
+
+print("The sum is:", sum)
